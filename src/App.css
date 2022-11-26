@@ -1,48 +1,47 @@
-.container{
+.container {
   margin: auto;
   max-width: 1200px;
   min-width: 800px;
-
 }
 
-.header{
+.header {
   background-color: white;
+  border: thin solid lightgray;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   padding: 0px 20px;
-
 }
 
-.inputForm{
-  background-color:lightgray;
+.inputForm {
+  background-color: lightgray;
   justify-content: space-between;
   padding: 20px;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
-.inputForm{
- display: flex;
+.inputForm {
+  display: flex;
 }
 
 .inputLabel {
   margin-right: 20px;
 }
 
-.textInput{
+.textInput {
   width: 200px;
   height: 30px;
   border: 0px;
   border-radius: 8px;
-  margin-right: 10px
+  margin-right: 10px;
 }
 
-.addButton{
-  background-color:aquamarine;
+.addButton {
+  background-color: aquamarine;
   color: white;
   width: 120px;
   height: 30px;
   border: 0px;
   border-radius: 8px;
-  font-weight: bold
+  font-weight: bold;
 }
