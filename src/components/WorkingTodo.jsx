@@ -1,6 +1,6 @@
 import Card from './Card';
 
-const WorkingTodo = ({todoArr, setTodoArr}) => {
+const WorkingTodo = ({ todoArr, setTodoArr }) => {
   const working = todoArr.filter((v) => v.isDone === false);
 
   return (
@@ -8,19 +8,18 @@ const WorkingTodo = ({todoArr, setTodoArr}) => {
       <h2>Working...🔥</h2>
       <div className='cardContainer'>
         {working.map((v) => (
-          <Card 
+          <Card
             key={v.id}
-            value={v}
             id={v.id}
             title={v.title}
             body={v.body}
-            isDone={v.isDOne}
+            isDone={v.isDone}
             todoArr={todoArr}
             setTodoArr={setTodoArr}
-           /> 
+          />
         ))}
       </div>
-   </div>
+    </div>
   );
 };
 export default WorkingTodo;
